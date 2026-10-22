@@ -8,8 +8,23 @@ function App() {
     <>
       <div id="wrapper">
         <HeaderContent />
-        <BodyContent />
-        <FooterContent />
+        <BodyContent>
+          <button>Click Here</button>
+          <br/>
+          <a href="#">Googel</a>
+        </BodyContent>
+
+        <BodyContent>
+          <p>Lorem ipsum dolor sit amet c
+            onsectetur adipisicing elit. 
+            Suscipit quas eius, qui ab 
+            temporibus quam! Inventore sequi 
+            totam ut ducimus vero. Accusantium 
+            sapiente aperiam quas. Architecto 
+            pariatur deserunt sed provident?</p>
+        </BodyContent>
+        
+        <BodyContent/>
       </div>
     </>
   );

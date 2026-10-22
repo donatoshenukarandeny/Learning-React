@@ -1,0 +1,14 @@
+/* src/Components/MenuLink/MenuLink.css */
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+    color: #61dafb;
+}

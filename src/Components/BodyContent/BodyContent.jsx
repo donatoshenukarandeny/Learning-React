@@ -1,10 +1,11 @@
 import React from "react";
 import  "./BodyContent.css";
 
-function BodyContent() {
+function BodyContent(prop) {
   return (
     <div id="bodycontent">
-      <p>main side content</p>
+      <p>Main Content</p>
+      {prop.children}
     </div>
   );
 }
