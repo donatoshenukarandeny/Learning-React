@@ -1,16 +1,18 @@
 import React from 'react';
 import './HeaderContent.css';
 import MenuLink from '../MenuLink/MenuLink'; 
+import Logoimage from '../../assets/react.svg';
 
 function HeaderContent() {
     return (
         <div className="header-container">
             <div className="logo-section">
                 <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
-                    alt="React Logo" 
-                    className="react-logo"
+                    src="favicon.svg" 
+                    alt="Vite Logo" 
+                    className="logo"
                 />
+                <img src={Logoimage} alt="React Logo" className="logo" />
             </div>
 
             <div className="nav-links">
